@@ -1,14 +1,8 @@
 #include <linux/module.h>
 
-void func (void)
-{
-	printk("Hello world\n");
-}
-
 int init_module (void)
 {
 	printk("module inserted \n");
-	func();
 	return 0;
 
 }
