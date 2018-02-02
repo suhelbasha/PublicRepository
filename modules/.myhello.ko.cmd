@@ -1,0 +1,1 @@
+cmd_/home/veda/Workspace/PublicRepository/modules/myhello.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/veda/Workspace/PublicRepository/modules/myhello.ko /home/veda/Workspace/PublicRepository/modules/myhello.o /home/veda/Workspace/PublicRepository/modules/myhello.mod.o
