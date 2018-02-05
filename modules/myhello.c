@@ -2,7 +2,7 @@
 
 int init_module (void)
 {
-	printk("module inserted \n");
+	printk("module inserted and hello world\n");
 	return 0;
 
 }
