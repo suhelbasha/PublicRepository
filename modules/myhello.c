@@ -2,14 +2,13 @@
 
 int init_module (void)
 {
-	printk("module inserted and hello world\n");
+	printk("module inserted and hello world\n"); //printk is used to print some thing on console.
 	return 0;
-
 }
 
 void cleanup_module (void)
 {
-	printk("module removed\n");
+	printk("module removed\n");		     //printk is used to remove the module here.
 }
 
 MODULE_AUTHOR ("suhel.basha@techveda.org");
