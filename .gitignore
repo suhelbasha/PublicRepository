@@ -1,0 +1,14 @@
+# Compiled binaries
+*.o
+*.ko
+*.mod.c
+*.mod.o
+*.cmd
+*.symvers
+*.order
+modules/prime
+modules/.tmp_versions/
+
+# Swap files
+*.swp
+.*.swp
